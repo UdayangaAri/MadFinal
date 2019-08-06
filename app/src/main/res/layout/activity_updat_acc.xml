@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updatAcc"
+    android:background="@drawable/bk">
+
+    <View
+        android:id="@+id/viewUp"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_marginBottom="83dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/viewbk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/UPpropic"
+        android:layout_width="184dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="31dp"
+        android:layout_marginTop="85dp"
+        app:layout_constraintBottom_toTopOf="@+id/accUN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user" />
+
+    <EditText
+        android:id="@+id/UPaccUN"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="128dp"
+        android:layout_marginTop="253dp"
+        android:background="@drawable/editbk"
+        android:hint="@string/username"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/UpdAcc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/UpaccEmail"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:textSize="18dp"
+        android:background="@drawable/editbk"
+        android:hint="@string/email_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UPaccUN" />
+
+    <EditText
+        android:id="@+id/UPaccpn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="168dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/editbk"
+        android:hint="@string/phone_number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UpaccEmail" />
+
+    <Button
+        android:id="@+id/UpdAcc"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="106dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginStart="68dp"
+        android:background="@drawable/btn"
+        android:text="@string/update_account"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/LogOut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UPaccUN" />
+
+    <Button
+        android:id="@+id/LogOut"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:background="@drawable/btnblue"
+        android:text="@string/delete_account"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/UpdAcc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/UpdAcc" />
+
+    <TextView
+        android:id="@+id/UpdatePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/update_profile_photo"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UPpropic" />
+
+    <TextView
+        android:id="@+id/Update_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/update_payment_details"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/viewUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
