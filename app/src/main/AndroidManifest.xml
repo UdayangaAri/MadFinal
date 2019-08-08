@@ -26,7 +26,10 @@
         <activity android:name=".Home1" />
         <activity android:name=".cart1" />
         <activity android:name=".ForgotPW" />
-        <activity android:name=".Fpwd"></activity>
+        <activity android:name=".Fpwd" />
+        <activity android:name=".NewItems" />
+        <activity android:name=".postedAds" />
+        <activity android:name=".SellActiv"></activity>
     </application>
 
 </manifest>

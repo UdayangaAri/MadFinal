@@ -159,4 +159,22 @@
     <string name="update_account">Update account</string>
     <string name="update_payment">Update Payment</string>
     <string name="update_payment_details">Update Payment Details</string>
+    <string name="adidas_mars1_men_sshoes">Adidas Mars1 = Men\'sShoes</string>
+    <string name="itemDescription">This Is the lates shoes of adidas. this is released in 2019 for men</string>
+    <string name="additmprice">Price</string>
+    <string name="additemdescription">Description</string>
+    <string name="add_item_name">Item Name</string>
+    <string name="post_ad">Post Ad</string>
+    <string name="adidas_mars1_men_s_shoes">Adidas Mars1 - Men\'s shoes</string>
+    <string name="pay_cart">Pay</string>
+    <string name="add_image">Add Image</string>
+    <string name="buy_cart">Buy</string>
+    <string name="buy_home">Buy</string>
+    <string name="buy_cart1">Cart</string>
+    <string name="sell_home">Sell</string>
+    <string name="account_home">Account</string>
+    <string name="my_ads">My Ads</string>
+    <string name="post_new_ad">Post New Ad</string>
+    <string name="delete_ad">Delete Ad</string>
+    <string name="update_ad">Update Ad</string>
 </resources>
