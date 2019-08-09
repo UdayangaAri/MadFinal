@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".postedAds"
+    android:background="@drawable/group">
+
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn"
+        android:text="@string/delete_ad"
+        android:textColor="@color/white"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btnblue"
+        android:text="@string/update_ad"
+        android:textColor="@color/white"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="200dp"/>
+
+    <View
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/viewbk"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="142dp">
+
+
+    </View>
+    <ImageView
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/tavera_shoes"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:textSize="20dp"
+        android:layout_height="60dp"
+        android:text="@string/tavera_shoes__"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="160dp"
+        android:textColor="@color/blue"
+        />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="@string/_3000lkr_"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="170dp"/>
+
+
+    <CheckBox
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="300dp"/>
+
+        <View
+            android:layout_gravity="center_horizontal"
+            android:layout_width="350dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/viewbk"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="142dp">
+
+
+        </View>
+        <ImageView
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/adidas_mars"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:textSize="20dp"
+            android:layout_height="60dp"
+            android:text="@string/adidas_mars_1_"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="160dp"
+            android:textColor="@color/blue"
+            />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="@string/_4500lkr_"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="170dp"/>
+
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="300dp"/>
+
+
+
+</RelativeLayout>
+
