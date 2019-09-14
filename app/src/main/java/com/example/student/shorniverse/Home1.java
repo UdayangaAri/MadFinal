@@ -1,10 +1,9 @@
-package com.example.udayanga.shorniverse;
+package com.example.student.shorniverse;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
 public class Home1 extends AppCompatActivity {
@@ -27,7 +26,7 @@ public class Home1 extends AppCompatActivity {
         i1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent q = new Intent(Home1.this, account.class);
+                Intent q = new Intent(Home1.this, ItemList.class);
                 startActivity(q);
             }
         });

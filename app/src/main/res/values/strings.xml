@@ -177,4 +177,20 @@
     <string name="post_new_ad">Post New Ad</string>
     <string name="delete_ad">Delete Ad</string>
     <string name="update_ad">Update Ad</string>
+    <string name="tavera_shoes_">Tavera Shoes</string>
+    <string name="_3000lkr">3000Lkr</string>
+    <string name="adidas_mars_1">Adidas Mars 1</string>
+    <string name="_4500lkr">4500Lkr</string>
+    <string name="white_canvas">White Canvas</string>
+    <string name="_1500lkr">1500Lkr</string>
+    <string name="tavera_shoes__">Tavera Shoes</string>
+    <string name="_3000lkr_">3000Lkr</string>
+    <string name="adidas_mars_1_">Adidas Mars 1</string>
+    <string name="_4500lkr_">4500Lkr</string>
+    <string name="adidas">Adidas</string>
+    <string name="crtimg">CrtImg</string>
+    <string name="continuebtn">Continue</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
 </resources>

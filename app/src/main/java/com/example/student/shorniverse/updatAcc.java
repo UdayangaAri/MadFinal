@@ -1,14 +1,17 @@
-package com.example.udayanga.shorniverse;
+package com.example.student.shorniverse;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.firebase.database.DatabaseReference;
+
 public class updatAcc extends AppCompatActivity {
 
     TextView t;
+    DatabaseReference redRef;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

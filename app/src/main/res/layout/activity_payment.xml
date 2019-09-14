@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group"
+    tools:context=".Payment">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="83dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="83dp"
+        android:background="@drawable/viewbk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="102dp"
+        android:text="@string/payment_info"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/CardNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/CardNo"
+        android:layout_width="214dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="33dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="155dp"
+        android:background="@drawable/editbk"
+        android:ems="10"
+        android:hint="@string/card_number"
+        android:inputType="number"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/Lname"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Fname"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginStart="85dp"
+        android:background="@drawable/namebk"
+        android:ems="10"
+        android:hint="@string/firstname"
+        android:inputType="textPersonName"
+        android:textSize="13dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Lname"
+        app:layout_constraintEnd_toStartOf="@+id/Lname"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Lname"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:background="@drawable/namebk"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/Cvv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Fname"
+        app:layout_constraintTop_toBottomOf="@+id/CardNo" />
+
+    <EditText
+        android:id="@+id/ExpDate"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginStart="85dp"
+        android:background="@drawable/namebk"
+        android:ems="10"
+        android:hint="@string/expire_date"
+        android:inputType="number"
+        android:textSize="15dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Cvv"
+        app:layout_constraintEnd_toStartOf="@+id/Cvv"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Cvv"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="256dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:background="@drawable/namebk"
+        android:ems="10"
+        android:hint="@string/cvv"
+        android:inputType="number"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ExpDate"
+        app:layout_constraintTop_toBottomOf="@+id/Lname" />
+
+    <Button
+        android:id="@+id/Pay"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="152dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/btn"
+        android:text="@string/pay"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

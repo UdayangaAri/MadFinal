@@ -1,4 +1,4 @@
-package com.example.udayanga.shorniverse;
+package com.example.student.shorniverse;
 
 import org.junit.Test;
 
