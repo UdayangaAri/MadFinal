@@ -17,8 +17,8 @@ import androidx.annotation.NonNull;
 public class ForgotPW extends AppCompatActivity {
 
 
-    private EditText send_email, phone;
-    private Button buttonb1;
+    private EditText send_email, phone,fEmail;
+     Button buttonb1;
     FirebaseAuth firebaseAuth;
 
 
@@ -30,7 +30,8 @@ public class ForgotPW extends AppCompatActivity {
 
 
         phone = findViewById(R.id.EtPhn);
-        send_email = findViewById(R.id.EtMail);
+       // fEmail=findViewById(R.id.fEmail);
+        send_email = findViewById(R.id.fEmail);
         buttonb1 = findViewById(R.id.verify);
         firebaseAuth = FirebaseAuth.getInstance();
 //          getSupportActionBar().setTitle("Reset Password");
@@ -39,13 +40,15 @@ public class ForgotPW extends AppCompatActivity {
         buttonb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(ForgotPW.this, "clicked", Toast.LENGTH_SHORT).show();
 
-                String email = send_email.getText().toString().trim();
 
-                if (email.equals("")) {
+                String fEmail = send_email.getText().toString().trim();
+
+                if (fEmail.equals("")) {
                     Toast.makeText(ForgotPW.this, "Please Enter your Email", Toast.LENGTH_SHORT).show();
                 } else {
-                    firebaseAuth.sendPasswordResetEmail(email).addOnCompleteListener(new OnCompleteListener<Void>() {
+                    firebaseAuth.sendPasswordResetEmail(fEmail).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
 

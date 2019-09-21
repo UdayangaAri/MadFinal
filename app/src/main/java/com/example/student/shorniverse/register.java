@@ -80,6 +80,8 @@ public class register extends AppCompatActivity {
         });
     }
 
+
+
     private void clearcontrols() {
         mail.setText("");
         phone.setText("");

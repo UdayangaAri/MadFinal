@@ -44,10 +44,12 @@
         android:background="@drawable/editbk"
         android:hint="@string/username"
         android:textSize="18dp"
+        android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/UpdAcc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/UpaccEmail"
@@ -55,6 +57,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="12dp"
         android:textSize="18dp"
+        android:inputType="textEmailAddress"
         android:background="@drawable/editbk"
         android:hint="@string/email_address"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,6 +72,7 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/editbk"
         android:hint="@string/phone_number"
+        android:inputType="number"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,12 +94,12 @@
         android:text="@string/update_account"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/LogOut"
+        app:layout_constraintEnd_toStartOf="@+id/DltAcc"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/UPaccUN" />
 
     <Button
-        android:id="@+id/LogOut"
+        android:id="@+id/DltAcc"
         android:layout_width="110dp"
         android:layout_height="40dp"
         android:layout_marginEnd="69dp"
