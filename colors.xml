@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0D092E</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pink">#EA1067</color>
+    <color name="blue">#0D092E</color>
+    <color name="white">#ffffff</color>
+    <color name="ash">#dfd6d6</color>
+    <color name="fadeAsh">#4d000000</color>
+    <color name="fadePink">#5eea1067</color>
+</resources>
